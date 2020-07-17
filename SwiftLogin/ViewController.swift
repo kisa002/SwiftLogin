@@ -31,6 +31,7 @@ class ViewController: BaseVC, UITextFieldDelegate {
     lazy var labelTitle: UILabel = {
         let v = UILabel()
         v.text = "Login"
+        v.textColor = hexToRgb(hex: "#1A1A1A")
         v.font = .systemFont(ofSize: 30, weight: UIFont.Weight.init(0.4))
         
         return v
@@ -40,6 +41,7 @@ class ViewController: BaseVC, UITextFieldDelegate {
         let v = UILabel()
         v.text = "Lorem ipsum dolor sit amet, consetetur\nsadipscing elitr, sed diam nonumy eirmod tempor"
         v.font = .systemFont(ofSize: 13)
+        v.textColor = hexToRgb(hex: "#1A1A1A")
 //        v.backgroundColor = .gray
         v.numberOfLines = 2
         
